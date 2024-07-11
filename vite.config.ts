@@ -12,5 +12,6 @@ export default defineConfig(() => ({
         emptyOutDir: true,
         manifest: false,
         target: "esnext",
+        outDir: "simple-text"
     },
 }));
