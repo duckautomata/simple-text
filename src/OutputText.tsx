@@ -6,8 +6,8 @@ export default function OutputText(props: OutputTextProps) {
 
     return (
         <>
-            <Typography padding="12px" whiteSpace="pre-wrap" id="output-text">
-                <hr />
+            <hr />
+            <Typography aria-live="assertive" padding="12px" whiteSpace="pre-wrap" id="output-text">
                 {text}
             </Typography>
         </>
