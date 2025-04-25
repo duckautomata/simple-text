@@ -4,10 +4,10 @@ Renders text input to DOM output
 
 ## Tech Used
 
--   Node 22
--   Vite to run locally
--   React18
--   MUI 5
+- Node 22
+- Vite to run locally
+- React18
+- MUI 5
 
 ## Running Locally
 
