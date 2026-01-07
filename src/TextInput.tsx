@@ -7,7 +7,6 @@ export default function TextInput(props: TextInputProps) {
     return (
         <TextField
             id="text-input"
-            label="Text to render"
             variant="outlined"
             multiline
             maxRows={8}
