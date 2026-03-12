@@ -20,7 +20,7 @@ export default defineConfig(() => {
                 },
             },
         ],
-        base: "/simple-text",
+        base: "/simple-text/",
         define: {
             __BUILD_TIME__: buildTime,
         },
@@ -32,7 +32,7 @@ export default defineConfig(() => {
             emptyOutDir: true,
             manifest: false,
             target: "esnext",
-            outDir: "simple-text", // should be the same as base
+            outDir: "dist/simple-text", // should be the same as base
             rollupOptions: {
                 output: {
                     manualChunks: (id) => {
